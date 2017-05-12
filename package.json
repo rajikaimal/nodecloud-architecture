@@ -1,0 +1,13 @@
+{
+  "name": "nodecloud-dp",
+  "version": "0.1.0",
+  "description": "POC for NodeCloud using various design patterns",
+  "main": "index.js",
+  "repository": "https://github.com/rajikaimal/nodecloud-dp",
+  "author": "rajikaimal <inbox.rajika@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.50.0",
+    "google-cloud": "^0.53.0"
+  }
+}
