@@ -1,9 +1,9 @@
 {
-  "name": "nodecloud-dp",
+  "name": "nodecloud-architecture",
   "version": "0.1.0",
   "description": "POC for NodeCloud using various design patterns",
   "main": "index.js",
-  "repository": "https://github.com/rajikaimal/nodecloud-dp",
+  "repository": "https://github.com/rajikaimal/nodecloud-architecture",
   "author": "rajikaimal <inbox.rajika@gmail.com>",
   "license": "MIT",
   "dependencies": {

@@ -1,11 +1,11 @@
-# nodecloud-dp
+# nodecloud-architecture
 
 POC for NodeCloud using different design patterns
 
 ## Install
 
 ```
-$ git clone https://github.com/rajikaimal/nodecloud-dp
-$ cd nodecloud-dp
+$ git clone https://github.com/rajikaimal/nodecloud-architecture
+$ cd nodecloud-architecture
 $ yarn install
 ```
