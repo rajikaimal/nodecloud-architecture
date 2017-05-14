@@ -28,9 +28,9 @@ awsStorage.createStorage({ Bucket: 'MyBucket', Body: 'Hello !' })
 
 // Google cloud platform
 const ncGoogle = nodeCloud.getProvider('google');
-const googleStorage = ncGoogle();
+const googleStorage = ncGoogle({ key: config.google.storage, service: 'Storage' });
 
-googleStorage.createStorage({ projectId: 'grape-spaceship-123', keyFilename: '/path/to/keyfile.json' })
+googleStorage.createStorage({ projectId: 'grape-spaceship-123' })
 googleStorage.createStorage({ Bucket: 'MyBucket' })
 	.then(res => {
 		console.log(`All done ! ${res}`);
