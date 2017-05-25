@@ -16,7 +16,7 @@ const config = require('./config');
 
 // AWS
 const ncAWS = nodeCloud.getProvider('aws');
-const awsStorage = ncAWS({ key: config.aws.S3, service: 'S3' });
+const awsStorage = ncAWS.storage({ key: config.aws.S3, service: 'S3' });
 
 awsStorage.createStorage({ Bucket: 'MyBucket', Body: 'Hello !' })
 	.then(res => {
@@ -28,7 +28,7 @@ awsStorage.createStorage({ Bucket: 'MyBucket', Body: 'Hello !' })
 
 // Google cloud platform
 const ncGoogle = nodeCloud.getProvider('google');
-const googleStorage = ncGoogle({ key: config.google.storage, service: 'Storage' });
+const googleStorage = ncGoogle.storage({ key: config.google.storage, service: 'Storage' });
 
 googleStorage.createStorage({ projectId: 'grape-spaceship-123' })
 googleStorage.createStorage({ Bucket: 'MyBucket' })
