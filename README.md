@@ -1,5 +1,7 @@
 # nodecloud-architecture
 
+[NodeCloud GSoC Blog](https://medium.com/nodecloud)
+
 POC for NodeCloud using different design patterns
 
 ## Install
