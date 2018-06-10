@@ -8,6 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.50.0",
-    "google-cloud": "^0.53.0"
+    "google-cloud": "^0.57.0"
   }
 }
