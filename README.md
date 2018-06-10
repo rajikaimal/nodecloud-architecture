@@ -1,5 +1,7 @@
 # nodecloud-architecture
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rajikaimal/nodecloud-architecture.svg)](https://greenkeeper.io/)
+
 [NodeCloud GSoC Blog](https://medium.com/nodecloud)
 
 POC for NodeCloud using different design patterns
